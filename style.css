@@ -26,9 +26,10 @@ header{
 }
 
 .nav-link.active {
-    background: #087A3D;
+    text-decoration: underline;
     color: rgb(0, 0, 0);
-    box-shadow: 0 6px 18px rgba(70, 229, 83, 0.095);
+    background: transparent;
+    box-shadow: none;
 }
 
 .nav-item {
@@ -46,8 +47,14 @@ header{
 }
 
 .nav-link:hover {
-    background: #FFEB00;
+    background: transparent;
     color: #1f2937;
+}
+
+.nav-link.active:hover {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 
