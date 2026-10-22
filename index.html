@@ -15,22 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Felipa&family=League+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <style>
-        .brand .LOGO {
-            margin: 0;
-            color: #ffffff;
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 2.5rem;
-            line-height: 1;
-        }
-        
-        .brand>span {
-            color: #252525;
-            font-family: "League Gothic", sans-serif;
-            font-size: 1.45rem;
-            line-height: 1;
-        }
-    </style>
 
 
     <title>MAG-ISSANA</title>
@@ -39,28 +23,17 @@
 <body>
 
     <header>
-        <div class="nav-overflow" data-bs-toggle="nav-overflow">
-
-            <ul class="nav  align-items-center ">
-                <li class="nav-item brand d-flex align-items-center gap-2 me-3">
-
-                    <h1 class="LOGO">MAG</h1>
-                    <span>ISSANA</span>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
-                </li>
-            </ul>
+        <div class="header-container">
+            <a class="brand" href="#" aria-label="MAG-ISSANA home">
+                <span class="brand-mag">MAG</span><span class="brand-issana">ISSANA</span>
+            </a>
+            <nav class="header-nav" aria-label="Main navigation">
+                <a class="header-link active" aria-current="page" href="#">Home</a>
+                <a class="header-link" href="#">Menu</a>
+                <a class="header-link" href="#">Deals</a>
+                <a class="header-link" href="#">About Us</a>
+                <a class="header-link" href="#">Contact</a>
+            </nav>
         </div>
     </header>
 
